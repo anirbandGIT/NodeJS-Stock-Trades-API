@@ -52,17 +52,3 @@ You are expected to choose the ORM you want to use and initialize the connection
 
 **Read Only Files**
 - `test/*`
-
-**Commands**
-- run: 
-```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm start
-```
-- install: 
-```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm install
-```
-- test: 
-```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm test
-```
