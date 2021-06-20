@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 // Insert your model definition below
 
 const tradeSchema = new mongoose.Schema({
+  id: { type: Number },
   type: { type: String, required: true },
   user_id: { type: Number, required: true },
   symbol: { type: String, required: true },

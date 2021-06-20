@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.7980" tests="16" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-06-20T13:00:35" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="stock_trades_api_hard" timestamp="2021-06-20T13:00:35" tests="16" file="F:\Workspace\HackerRank\NodeJS INTERVIEWS\455b537e-f59d-4a5b-a561-a0370ed7fd75\test\index.spec.js" time="0.7980" failures="0">
+    <testcase name="stock_trades_api_hard should create a new trade of buy type" time="0.1640" classname="should create a new trade of buy type">
+    </testcase>
+    <testcase name="stock_trades_api_hard should create a new trade of sell type" time="0.0200" classname="should create a new trade of sell type">
+    </testcase>
+    <testcase name="stock_trades_api_hard should return 400 if the payload has an invalid type" time="0.0090" classname="should return 400 if the payload has an invalid type">
+    </testcase>
+    <testcase name="stock_trades_api_hard should return 400 if the number of shares exceeds the limit" time="0.0090" classname="should return 400 if the number of shares exceeds the limit">
+    </testcase>
+    <testcase name="stock_trades_api_hard should return 400 if the number of shares is below the limit" time="0.0080" classname="should return 400 if the number of shares is below the limit">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch all the trades" time="0.0940" classname="should fetch all the trades">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch no trades if the type filter value does not exist" time="0.0850" classname="should fetch no trades if the type filter value does not exist">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch all trades for a user" time="0.0720" classname="should fetch all trades for a user">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch no trades if user filter value does not exist" time="0.0720" classname="should fetch no trades if user filter value does not exist">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch all buy trades for a user" time="0.0710" classname="should fetch all buy trades for a user">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch all sell trades for a user" time="0.0790" classname="should fetch all sell trades for a user">
+    </testcase>
+    <testcase name="stock_trades_api_hard should fetch a single trade" time="0.0350" classname="should fetch a single trade">
+    </testcase>
+    <testcase name="stock_trades_api_hard should get 404 if the trade ID does not exist" time="0.0070" classname="should get 404 if the trade ID does not exist">
+    </testcase>
+    <testcase name="stock_trades_api_hard should get 405 for a put request to /trades/:id" time="0.0240" classname="should get 405 for a put request to /trades/:id">
+    </testcase>
+    <testcase name="stock_trades_api_hard should get 405 for a patch request to /trades/:id" time="0.0270" classname="should get 405 for a patch request to /trades/:id">
+    </testcase>
+    <testcase name="stock_trades_api_hard should get 405 for a delete request to /trades/:id" time="0.0220" classname="should get 405 for a delete request to /trades/:id">
+    </testcase>
+  </testsuite>
+</testsuites>
